@@ -118,14 +118,6 @@ h4{
     font-size: 200%;
 }
 
-#helloH4{
-    margin-left: 25%;
-}
-
-#nameH4{
-    margin-left: 8%;
-}
-
 span{
     animation-name: nameAnimation;
     animation-duration: 10s;
@@ -229,6 +221,7 @@ article p {
     float: left;
     width: 47%;
     margin-left: 2%;
+    text-align: center;
 }
 
 .first {
