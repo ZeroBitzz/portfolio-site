@@ -1,6 +1,6 @@
 // removes the loading page
 setTimeout(() => {
-    document.getElementById("loader-wrapper").style.visibility = "hidden"
+    document.getElementById("loader-wrapper").style.display = "none"
 }, 3000);
 
 // clock for the website
