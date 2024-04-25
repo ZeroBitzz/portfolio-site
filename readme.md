@@ -3,9 +3,6 @@
 ## Description
 I wanted my personal website to look maximum epic, so I took inspiration from really old terminal ui throughout the whole site, cuz classic is cool.
 
-## Deployed application
-[My resplendent website](https://brodihowell.dev/)
-
 ## Features
 I added an arbitrary loading screen for uber immersion. I also slapped in the time, in real time, with my own time, in the bottom right corner. Then I 
 threw in a crt overlay on the whole thing. Why? Because it's radical.
