@@ -2,7 +2,10 @@ import './Text.css'
 
 function Text() {
     return (
-        <div className='text'>text</div>
+        <div >
+            <div className='text-top'>Hey! I'm</div>
+            <div className='text-bottom'>Broderick</div>
+        </div>
     )
 }
 

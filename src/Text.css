@@ -1,5 +1,11 @@
-.text {
-    font-size: 300px;
+.text-top {
+    font-size: 200px;
     position: fixed;
     left: 0;
+}
+.text-bottom {
+    font-size: 200px;
+    position: fixed;
+    left: 0;
+    margin-top: 10%;
 }

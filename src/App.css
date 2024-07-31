@@ -20,13 +20,48 @@ body {
 
 .pfp {
   width: 300px;
+  margin-left: 60%;
 }
 
-.experience-section {
-
+.section-title {
+  font-style: oblique;
 }
 
 .projects-section {
+  margin-left: ;
+  margin-top: 20%;
+  width: 70%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.projects-container {
+  right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-div {
+  margin-bottom: 100px;
+}
+
+.weather-finder {
+  display: flex;
+
+}
+.weather-finder span{
+  display: flex;
+  font-size: 50px;
+  margin-left: 20px;
+}
+.weather-finder img {
+  width: 600px;
+}
+
+.about-me-section {
 
 }
 
