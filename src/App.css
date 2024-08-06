@@ -28,9 +28,7 @@ body {
 }
 
 .projects-section {
-  margin-left: ;
   margin-top: 20%;
-  width: 70%;
   /* background-color: red; */
   display: flex;
   flex-direction: column;
@@ -39,30 +37,38 @@ body {
 }
 
 .projects-container {
-  right: 0;
   display: flex;
   flex-direction: column;
 }
 
 .project-div {
   margin-bottom: 100px;
-}
-
-.weather-finder {
   display: flex;
-
 }
-.weather-finder span{
+
+.project-div span{
+  font-size: 40px;
+  margin-left: 20px;
+  background-color: blue;
+  width: 300px;
+}
+
+.project-div img{
+  width: 600px;
+  height: 400px;
   display: flex;
   font-size: 50px;
   margin-left: 20px;
 }
-.weather-finder img {
-  width: 600px;
-}
 
 .about-me-section {
-
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-me-section span{
+  background-color: grey;
 }
 
 .contact-section {
