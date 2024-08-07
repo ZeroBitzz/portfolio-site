@@ -3,6 +3,9 @@ import pfp from './pfp.png'
 import proj1 from './project screenshots/weatherfinder.png'
 import proj2 from './project screenshots/passgen.png'
 import proj3 from './project screenshots/rgbguesser.png'
+import linkedin from './contact icons/linkedin.png'
+import github from './contact icons/GitHub-Mark-ea2971cee799.png'
+import email from './contact icons/free-email-2026367-1713640.webp'
 import Header from './Header'
 import Text from './Text'
 
@@ -11,10 +14,12 @@ function App() {
     <div className='App'>
       <Header />
       <Text />
+      <span className='metaspan'>created in august 2024</span>
 
       {/* introduction section */}
       <section className='introduction-section'>
-        <img src={pfp} className='pfp' alt='pfp'/>
+        <img src={pfp} className='pfp' alt='pfp' id='pfp'/>
+        <span>scroll down!</span>
       </section>
 
       {/* projects section */}
@@ -46,13 +51,26 @@ function App() {
           I started in the world of software engineering in middle school and have been developing ever since.
           I graduated at the University of Utah's software engineering bootcamp and started developing my own app that I'm still
           proudly working on. I am also very eager to get into the professional field of software engineering at a company, to meet
-          awesome developers, create amazing things, and learn evermore in the field.
+          awesome developers, create amazing things, and be a master in the field of engineering.
         </span>
       </section>
 
       {/* contact-me-section */}
       <section className='contact-me-section'>
-        section4 - contact me
+        <h1>CONTACT ME</h1>
+        <div>
+          <a href='https://www.linkedin.com/in/broderick-howell-43b0161a4/' target='_blank'>
+            <img src={linkedin} className='contact-icon'/>
+          </a>    
+
+          <a href='https://github.com/ZeroBitzz' target='_blank'>
+            <img src={github} className='contact-icon'/>
+          </a>      
+
+          <a href="mailto:recipient@example.com">
+            <img src={email} className='contact-icon'/>
+          </a>
+        </div>
       </section>
     </div>
   )

@@ -9,6 +9,14 @@ body {
   background-color: whitesmoke;
 }
 
+.metaspan {
+  position: fixed;
+  right: 0;
+  rotate: 90deg;
+  margin-top: 50px;
+  width: 100px;
+}
+
 .introduction-section {
   margin-top: 50px;
   display: flex;
@@ -39,6 +47,9 @@ body {
 .projects-container {
   display: flex;
   flex-direction: column;
+  background-color: #c9c9c9;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .project-div {
@@ -47,13 +58,13 @@ body {
 }
 
 .project-div span{
-  font-size: 40px;
-  margin-left: 20px;
-  background-color: blue;
+  font-size: 20px;
   width: 300px;
+  margin-left: 20px;
 }
 
 .project-div img{
+  border-radius: 20px;
   width: 600px;
   height: 400px;
   display: flex;
@@ -62,17 +73,47 @@ body {
 }
 
 .about-me-section {
+  margin-top: 200px;
   width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .about-me-section span{
-  background-color: grey;
+  background-color: #c9c9c9;
+  font-size: 25px;
+  border-radius: 10px;
+  width: 600px;
+  padding: 10px;
+}
+.about-me-section h1{
+  font-size: 100px;
+  width: 500px;
 }
 
-.contact-section {
-  margin-top: 500px;
+.contact-me-section {
+  width: 500px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  align-content: left;
+  flex-direction: column;
+}
+.contact-me-section div {
+  background-color: #c9c9c9;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contact-icon {
+  width: 50px;
+  height: 50px;
+}
+.contact-icon:hover {
+  background-color: red;
+  border-radius: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
