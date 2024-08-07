@@ -7,20 +7,36 @@ import linkedin from './contact icons/linkedin.png'
 import github from './contact icons/GitHub-Mark-ea2971cee799.png'
 import email from './contact icons/free-email-2026367-1713640.webp'
 import Header from './Header'
+import scroller from './scroll icon.png'
+
+var i = 0;
+var txt = 'I am a developer';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typewriter").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
 
 function App() {
   return (
     <div className='App'>
       <Header />
       <span className='metaspan'>created in august 2024</span>
-
       {/* introduction section */}
       <section className='introduction-section'>
         <div className='main-intro'>
-          <h1>Hey! I'm Broderick!<span> I'm a developer</span></h1>
+          <h1>Hey! I'm Broderick!<span id='typewriter'></span></h1>
           <img src={pfp} className='pfp' alt='pfp' id='pfp'/>
+          <button onClick={typeWriter}></button>
+          <span id='demo'></span>
         </div>
-        <span>scroll down!</span>
+        <div className='scroller-container'>
+          <span className='scroller'>scroll down <img src={scroller} alt='scroll icon'/></span>
+        </div>
       </section>
 
       {/* projects section */}

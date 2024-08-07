@@ -3,17 +3,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
     background-color: whitesmoke;
     position: fixed;
     top: 0;
     width: 100%;
     height: 50px;
-}
-
-.header-span {
-    margin-right: 20px;
-}
-
-.first-span {
-    margin-left: 20%;
 }

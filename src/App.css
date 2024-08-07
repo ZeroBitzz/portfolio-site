@@ -9,6 +9,7 @@ body {
   background-color: whitesmoke;
 }
 
+/* introduction section */
 .main-intro {
   display: flex;
   flex-direction: row;
@@ -19,7 +20,7 @@ body {
   flex-direction: column;
 }
 .main-intro span {
-  font-size: 50px;
+  font-size: 40px;
   color: gray;
   font-style: italic;
 }
@@ -30,6 +31,25 @@ body {
   rotate: 90deg;
   margin-top: 50px;
   width: 100px;
+}
+
+.scroller-container {
+  width: 500px;
+  height: 200px;
+}
+.scroller {
+  animation: bounce 3s infinite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.scroller img {
+  width: 80px;
+}
+@keyframes bounce {
+  0%   {margin-top: 0px;}
+  50%  {margin-top: 100px;}
+  100% {margin-top: 0px;}
 }
 
 .introduction-section {
@@ -45,6 +65,8 @@ body {
   width: 300px;
 }
 
+
+/* projects section */
 .section-title {
   font-style: oblique;
 }
@@ -86,6 +108,8 @@ body {
   margin-left: 20px;
 }
 
+/* about me section */
+
 .about-me-section {
   margin-top: 200px;
   width: 500px;
@@ -105,6 +129,7 @@ body {
   width: 500px;
 }
 
+/* contact me section */
 .contact-me-section {
   width: 500px;
   margin-top: 200px;
@@ -128,34 +153,4 @@ body {
 .contact-icon:hover {
   background-color: red;
   border-radius: 10px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
