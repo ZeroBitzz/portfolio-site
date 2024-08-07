@@ -27,7 +27,7 @@ import scroller from './scroll icon.png'
 // }
 
 let textBase = "I am a ";
-let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover"];
+let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover", "University of Utah graduate"];
 let jobIdx = 0;
 let i = 0;
 let reverse = false;
@@ -57,7 +57,7 @@ function typeWriter() {
     } else {
       // deleting done. Set next job, and repeat with typing by
       // setting reverse to false
-      jobIdx = (jobIdx+1) % 2;
+      jobIdx = (jobIdx+1) % 4;
       reverse = false;
       setTimeout(typeWriter, 1000);
     }
