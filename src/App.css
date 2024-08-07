@@ -9,6 +9,21 @@ body {
   background-color: whitesmoke;
 }
 
+.main-intro {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
+.main-intro h1{
+  display: flex;
+  flex-direction: column;
+}
+.main-intro span {
+  font-size: 50px;
+  color: gray;
+  font-style: italic;
+}
+
 .metaspan {
   position: fixed;
   right: 0;
@@ -20,15 +35,14 @@ body {
 .introduction-section {
   margin-top: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  align-content: space-evenly;
   font-size: 50px;
   flex-wrap: wrap;
 }
 
 .pfp {
   width: 300px;
-  margin-left: 60%;
 }
 
 .section-title {

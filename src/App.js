@@ -7,18 +7,19 @@ import linkedin from './contact icons/linkedin.png'
 import github from './contact icons/GitHub-Mark-ea2971cee799.png'
 import email from './contact icons/free-email-2026367-1713640.webp'
 import Header from './Header'
-import Text from './Text'
 
 function App() {
   return (
     <div className='App'>
       <Header />
-      <Text />
       <span className='metaspan'>created in august 2024</span>
 
       {/* introduction section */}
       <section className='introduction-section'>
-        <img src={pfp} className='pfp' alt='pfp' id='pfp'/>
+        <div className='main-intro'>
+          <h1>Hey! I'm Broderick!<span> I'm a developer</span></h1>
+          <img src={pfp} className='pfp' alt='pfp' id='pfp'/>
+        </div>
         <span>scroll down!</span>
       </section>
 
