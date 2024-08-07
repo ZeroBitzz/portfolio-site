@@ -93,7 +93,6 @@ function App() {
         <div className='main-intro'>
           <h1>Hey! I'm Broderick!<span id='typewriter'></span></h1>
           <img src={pfp} className='pfp' alt='pfp' id='pfp'/>
-          <button onClick={typeWriter}></button>
           <span id='demo'></span>
         </div>
         <div className='scroller-container'>
