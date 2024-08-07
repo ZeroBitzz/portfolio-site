@@ -9,15 +9,77 @@ import email from './contact icons/free-email-2026367-1713640.webp'
 import Header from './Header'
 import scroller from './scroll icon.png'
 
-var i = 0;
-var txt = 'I am a developer';
-var speed = 50;
+// var i = 0;
+// var txt = 'I am a developer';
+// var speed = 50;
+
+// function typeWriter() {
+//   if (i < txt.length) {
+//     document.getElementById("typewriter").innerHTML += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   }
+//   if(i > 0){
+//     document.getElementById("typewriter").innerHTML -= txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   }
+// }
+
+let textBase = "I am a ";
+let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover"];
+let jobIdx = 0;
+let i = 0;
+let reverse = false;
+
+function runTypewriter(){
+  if(document.getElementById("typewriter") != null){
+    typeWriter()
+  }else {
+    setTimeout(() => {
+      runTypewriter()
+    }, 1000);
+  }
+}
 
 function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("typewriter").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+  // Generate some random text jitter between 45 and 75 ms to simulate a keyboard
+  var textJitter = Math.floor(Math.random() * (70 - 45) + 45);
+
+  // Check if we want to remove text ('reverse'), or add it.
+  if (reverse) {
+    if (document.getElementById("typewriter").innerHTML.length > textBase.length) {
+      // We're still in the process of removing the job
+      document.getElementById("typewriter").innerHTML = document
+        .getElementById("typewriter")
+        .innerHTML.slice(0, -1);
+      setTimeout(typeWriter, textJitter);
+    } else {
+      // deleting done. Set next job, and repeat with typing by
+      // setting reverse to false
+      jobIdx = (jobIdx+1) % 2;
+      reverse = false;
+      setTimeout(typeWriter, 1000);
+    }
+  } else {
+    // We're adding text
+    if (i === (textBase + jobs[jobIdx]).length) {
+      // Line is done. Wait and then reverse
+      i = textBase.length;
+      reverse = true;
+
+      // Wait a second, then start deleting
+      setTimeout(typeWriter, 3000);
+    } else {
+      // Write text like a typewriter
+      if (i < (textBase + jobs[jobIdx]).length) {
+        document.getElementById("typewriter").innerHTML = document.getElementById("typewriter").innerHTML + (
+          textBase + jobs[jobIdx]
+        ).charAt(i);
+        i++;
+        setTimeout(typeWriter, textJitter);
+      }
+    }
   }
 }
 
@@ -89,8 +151,8 @@ function App() {
           </a>
         </div>
       </section>
+      {runTypewriter()}
     </div>
   )
 }
-
 export default App
