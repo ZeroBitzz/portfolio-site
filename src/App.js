@@ -111,16 +111,16 @@ function App() {
       <section className='contact-me-section'>
         <h1>CONTACT ME</h1>
         <div>
-          <a href='https://www.linkedin.com/in/broderick-howell-43b0161a4/' target='_blank'>
-            <img src={linkedin} className='contact-icon'/>
+          <a href='https://www.linkedin.com/in/broderick-howell-43b0161a4/' target='blank'>
+            <img src={linkedin} className='contact-icon' alt='linkedin icon'/>
           </a>    
 
-          <a href='https://github.com/ZeroBitzz' target='_blank'>
-            <img src={github} className='contact-icon'/>
+          <a href='https://github.com/ZeroBitzz' target='blank'>
+            <img src={github} className='contact-icon' alt='github icon'/>
           </a>      
 
-          <a href="mailto:recipient@example.com">
-            <img src={email} className='contact-icon'/>
+          <a href="mailto:zerothesu@gmail.com">
+            <img src={email} className='contact-icon' alt='email icon'/>
           </a>
         </div>
       </section>
