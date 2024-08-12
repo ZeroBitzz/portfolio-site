@@ -85,11 +85,55 @@ body {
   background-color: #c9c9c9;
   padding: 20px;
   border-radius: 20px;
+  width: 60%;
 }
 
 .project-div {
   margin-bottom: 100px;
   display: flex;
+}
+
+.project-desc {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tools-used {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+}
+.tools-used div{
+  background-color: whitesmoke;
+  padding: 8px;
+  border-radius: 8px;
+}
+.tools-used div:hover {
+  cursor: default;
+}
+
+.link-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.link-buttons button {
+  background-color: whitesmoke;
+  font-size: 20px;
+}
+.link-buttons button:hover {
+  background-color: red;
+}
+.link-buttons a {
+  text-decoration: none;
+  color: black;
+}
+.link-buttons a:hover {
+  color: white;
 }
 
 .project-div span{
@@ -100,8 +144,8 @@ body {
 
 .project-div img{
   border-radius: 20px;
-  width: 600px;
-  height: 400px;
+  width: 50%;
+  height: 50%;
   display: flex;
   font-size: 50px;
   margin-left: 20px;

@@ -84,7 +84,28 @@ function App() {
           
           <div className='project-div'>
             <img src={proj1} alt='weather-finder-img'/>
-            <span>This project uses a weather api to detect the five day forecast depending on where you searched to see the weather!</span>
+            <div className='project-desc'>
+              <h2>Weather Finder</h2>
+              <span>This project uses a weather api to detect the five day forecast depending on where you searched to see the weather!</span>
+              <div className='tools-used'>
+                <div>
+                  APIs
+                </div>
+                <div>
+                  Javascript
+                </div>
+                <div>
+                  HTML
+                </div>
+                <div>
+                  CSS
+                </div>
+              </div>
+              <div className='link-buttons'>
+                <button><a href='https://github.com/ZeroBitzz/weather-finder' target='blank'>GITHUB</a></button>
+                <button><a href='https://serene-narwhal-b92afd.netlify.app/' target='blank'>DEMO</a></button>
+              </div>
+            </div>
           </div>
 
           <div className='project-div'>
