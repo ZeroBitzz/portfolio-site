@@ -6,15 +6,10 @@ import proj3 from './project screenshots/rgbguesser.png'
 import linkedin from './contact icons/linkedin.png'
 import github from './contact icons/GitHub-Mark-ea2971cee799.png'
 import email from './contact icons/free-email-2026367-1713640.webp'
-import Header from './Header'
 import scroller from './scroll icon.png'
 
-let textBase = "I am a ";
-let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover", "University of Utah graduate"];
-let jobIdx = 0;
-let i = 0;
-let reverse = false;
 
+// lazy way to re run the function when the element has not rendered yet
 function runTypewriter(){
   if(document.getElementById("typewriter") != null){
     typeWriter()
@@ -25,6 +20,14 @@ function runTypewriter(){
   }
 }
 
+// variables for typewriter function
+let textBase = "I am a ";
+let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover", "University of Utah graduate"];
+let jobIdx = 0;
+let i = 0;
+let reverse = false;
+
+// typewriter text effect function
 function typeWriter() {
   var textJitter = Math.floor(Math.random() * (70 - 45) + 45);
 
@@ -57,10 +60,10 @@ function typeWriter() {
   }
 }
 
+// main function for app
 function App() {
   return (
     <div className='App'>
-      <Header />
       <span className='metaspan'>created in august 2024</span>
       {/* introduction section */}
       <section className='introduction-section'>
