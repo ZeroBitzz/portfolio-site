@@ -9,23 +9,6 @@ import email from './contact icons/free-email-2026367-1713640.webp'
 import Header from './Header'
 import scroller from './scroll icon.png'
 
-// var i = 0;
-// var txt = 'I am a developer';
-// var speed = 50;
-
-// function typeWriter() {
-//   if (i < txt.length) {
-//     document.getElementById("typewriter").innerHTML += txt.charAt(i);
-//     i++;
-//     setTimeout(typeWriter, speed);
-//   }
-//   if(i > 0){
-//     document.getElementById("typewriter").innerHTML -= txt.charAt(i);
-//     i++;
-//     setTimeout(typeWriter, speed);
-//   }
-// }
-
 let textBase = "I am a ";
 let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover", "University of Utah graduate"];
 let jobIdx = 0;
