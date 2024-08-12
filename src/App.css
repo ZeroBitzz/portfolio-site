@@ -69,6 +69,7 @@ body {
 /* projects section */
 .section-title {
   font-style: oblique;
+  font-size: 100px;
 }
 
 .projects-section {
@@ -121,19 +122,16 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.link-buttons button {
-  background-color: whitesmoke;
-  font-size: 20px;
-}
-.link-buttons button:hover {
-  background-color: red;
-}
 .link-buttons a {
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 2px solid black;
   text-decoration: none;
   color: black;
 }
 .link-buttons a:hover {
   color: white;
+  background-color: red;
 }
 
 .project-div span{

@@ -79,7 +79,7 @@ function App() {
 
       {/* projects section */}
       <section className='projects-section'>
-        <h1 className='section-title'>PROJECTS</h1>
+        <h1 className='section-title'>MY PROJECTS</h1>
         <div className='projects-container'>
           
           <div className='project-div'>
@@ -88,34 +88,51 @@ function App() {
               <h2>Weather Finder</h2>
               <span>This project uses a weather api to detect the five day forecast depending on where you searched to see the weather!</span>
               <div className='tools-used'>
-                <div>
-                  APIs
-                </div>
-                <div>
-                  Javascript
-                </div>
-                <div>
-                  HTML
-                </div>
-                <div>
-                  CSS
-                </div>
+                <div>APIs</div>
+                <div>Javascript</div>
+                <div>HTML</div>
+                <div>CSS</div>
               </div>
               <div className='link-buttons'>
-                <button><a href='https://github.com/ZeroBitzz/weather-finder' target='blank'>GITHUB</a></button>
-                <button><a href='https://serene-narwhal-b92afd.netlify.app/' target='blank'>DEMO</a></button>
+                <a href='https://github.com/ZeroBitzz/weather-finder' target='blank'>GITHUB</a>
+                <a href='https://serene-narwhal-b92afd.netlify.app/' target='blank'>DEMO</a>
               </div>
             </div>
           </div>
 
           <div className='project-div'>
             <img src={proj2} alt='password-generator-img'/>
-            <span>This project will generate a random secure password that you can test the strength of!</span>
+            <div className='project-desc'>
+              <h2>PassGen</h2>
+              <span>Create a random password and test it's strength. Great for when you don't want to think about creating a new password!</span>
+              <div className='tools-used'>
+                <div>Javascript</div>
+                <div>HTML</div>
+                <div>CSS</div>
+              </div>
+              <div className='link-buttons'>
+                <a href='https://github.com/ZeroBitzz/password-generator' target='blank'>GITHUB</a>
+                <a href='https://unique-froyo-495763.netlify.app/' target='blank'>DEMO</a>
+              </div>
+            </div>
           </div>
 
           <div className='project-div'>
             <img src={proj3} alt='rgb-guesser-img'/>
-            <span>Test your color guessing ability with this game by choosing between three colors!</span>
+            <div className='project-desc'>
+              <h2>RGB Guesser</h2>
+              <span>Randomly generates three rgb colors and you have to guess the correct answer. How many can you get in a row?</span>
+              <div className='tools-used'>
+                <div>React</div>
+                <div>Javascript</div>
+                <div>HTML</div>
+                <div>CSS</div>
+              </div>
+              <div className='link-buttons'>
+                <a href='https://github.com/ZeroBitzz/rgb-guesser' target='blank'>GITHUB</a>
+                <a href='https://github.com/ZeroBitzz/rgb-guesser' target='blank'>DEMO</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
