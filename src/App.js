@@ -43,35 +43,26 @@ function runTypewriter(){
 }
 
 function typeWriter() {
-  // Generate some random text jitter between 45 and 75 ms to simulate a keyboard
   var textJitter = Math.floor(Math.random() * (70 - 45) + 45);
 
-  // Check if we want to remove text ('reverse'), or add it.
   if (reverse) {
     if (document.getElementById("typewriter").innerHTML.length > textBase.length) {
-      // We're still in the process of removing the job
       document.getElementById("typewriter").innerHTML = document
         .getElementById("typewriter")
         .innerHTML.slice(0, -1);
       setTimeout(typeWriter, textJitter);
     } else {
-      // deleting done. Set next job, and repeat with typing by
-      // setting reverse to false
       jobIdx = (jobIdx+1) % 4;
       reverse = false;
       setTimeout(typeWriter, 1000);
     }
   } else {
-    // We're adding text
     if (i === (textBase + jobs[jobIdx]).length) {
-      // Line is done. Wait and then reverse
       i = textBase.length;
       reverse = true;
 
-      // Wait a second, then start deleting
       setTimeout(typeWriter, 3000);
     } else {
-      // Write text like a typewriter
       if (i < (textBase + jobs[jobIdx]).length) {
         document.getElementById("typewriter").innerHTML = document.getElementById("typewriter").innerHTML + (
           textBase + jobs[jobIdx]
