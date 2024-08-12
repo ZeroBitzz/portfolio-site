@@ -16,45 +16,45 @@ function runTypewriter(){
   }else {
     setTimeout(() => {
       runTypewriter()
-    }, 1000);
+    }, 1000)
   }
 }
 
 // variables for typewriter function
-let textBase = "I am a ";
-let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover", "University of Utah graduate"];
-let jobIdx = 0;
-let i = 0;
-let reverse = false;
+let textBase = "I am a "
+let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover", "University of Utah graduate"]
+let jobIdx = 0
+let i = 0
+let reverse = false
 
 // typewriter text effect function
 function typeWriter() {
-  var textJitter = Math.floor(Math.random() * (70 - 45) + 45);
+  var textJitter = Math.floor(Math.random() * (70 - 45) + 45)
 
   if (reverse) {
     if (document.getElementById("typewriter").innerHTML.length > textBase.length) {
       document.getElementById("typewriter").innerHTML = document
         .getElementById("typewriter")
-        .innerHTML.slice(0, -1);
-      setTimeout(typeWriter, textJitter);
+        .innerHTML.slice(0, -1)
+      setTimeout(typeWriter, textJitter)
     } else {
-      jobIdx = (jobIdx+1) % 4;
-      reverse = false;
-      setTimeout(typeWriter, 1000);
+      jobIdx = (jobIdx+1) % 4
+      reverse = false
+      setTimeout(typeWriter, 1000)
     }
   } else {
     if (i === (textBase + jobs[jobIdx]).length) {
-      i = textBase.length;
-      reverse = true;
+      i = textBase.length
+      reverse = true
 
-      setTimeout(typeWriter, 3000);
+      setTimeout(typeWriter, 3000)
     } else {
       if (i < (textBase + jobs[jobIdx]).length) {
         document.getElementById("typewriter").innerHTML = document.getElementById("typewriter").innerHTML + (
           textBase + jobs[jobIdx]
-        ).charAt(i);
-        i++;
-        setTimeout(typeWriter, textJitter);
+        ).charAt(i)
+        i++
+        setTimeout(typeWriter, textJitter)
       }
     }
   }
