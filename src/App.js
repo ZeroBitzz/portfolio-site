@@ -22,7 +22,7 @@ function runTypewriter(){
 
 // variables for typewriter function
 let textBase = "I am a "
-let jobs = ["Software Engineer", "Problem Solver", "Coffee Lover", "University of Utah graduate"]
+let jobs = ["Software Engineer", "Problem Solver", "University of Utah graduate", "Coffee Connoisseur"]
 let jobIdx = 0
 let i = 0
 let reverse = false
@@ -141,10 +141,11 @@ function App() {
       <section className='about-me-section'>
         <h1>ABOUT ME</h1>
         <span>
-          I started in the world of software engineering in middle school and have been developing ever since.
-          I graduated at the University of Utah's software engineering bootcamp and started developing my own app that I'm still
-          proudly working on. I am also very eager to get into the professional field of software engineering at a company, to meet
-          awesome developers, create amazing things, and be a master in the field of engineering.
+          I began in the world of software engineering when I was in middle school. I was fascinated by computers and their 
+          seemingly impossible complexity. Software engineering perfectly aligned with my love for problem solving and
+          creating things. I graduated high school with a computer science and computer programming certificate. then after
+          a year of just taking a break and working some basic jobs I went to the University of Utah and graduated their 
+          software engineering bootcamp.
         </span>
       </section>
 
