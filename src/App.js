@@ -172,7 +172,7 @@ function App() {
            with amazing people and being on the forefront of cutting-edge technologies.
           </span>
           <span>
-            I am proficient with these technologies:
+            I have worked in these technologies:
           </span>
           <div className='technology-stack'>
 
