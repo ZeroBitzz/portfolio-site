@@ -170,18 +170,22 @@ function App() {
             I am proficient with these technologies:
           </span>
           <div className='technology-stack'>
-            <img src={JSicon}/>
-            <img src={CSSicon}/>
-            <img src={HTMLicon}/>
-            <img src={REACTicon}/>
-            <img src={MONGODBicon}/>
-            <img src={NODEJSicon}/>
-            <img src={VSCODEicon}/>
-            <img src={GITicon}/>
-            <img src={PYTHONicon}/>
-            <img src={FIGMAicon}/>
-            <img src={MYSQLicon}/>
-            <img src={ARDUINOicon}/>
+            <div className='techstack1'>
+              <img src={JSicon}/>
+              <img src={CSSicon}/>
+              <img src={HTMLicon}/>
+              <img src={REACTicon}/>
+              <img src={MONGODBicon}/>
+              <img src={NODEJSicon}/>
+            </div>
+            <div className='techstack2'>
+              <img src={VSCODEicon}/>
+              <img src={GITicon}/>
+              <img src={PYTHONicon}/>
+              <img src={FIGMAicon}/>
+              <img src={MYSQLicon}/>
+              <img src={ARDUINOicon}/>
+            </div>
           </div>
         </div>
       </section>

@@ -178,6 +178,21 @@ body {
 
 .technology-stack {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.techstack1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.techstack2 {
+  width: 100%;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
