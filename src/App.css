@@ -153,16 +153,22 @@ body {
 
 .about-me-section {
   margin-top: 100px;
-  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.about-me-section span{
+.about-me-section div {
+  display: flex;
+  flex-direction: column;
   background-color: #c9c9c9;
+  width: 600px;
+  padding: 50px;
+  border-radius: 20px;
+}
+.about-me-section span{
+  margin-top: 20px;
   font-size: 25px;
   border-radius: 10px;
-  width: 600px;
   padding: 10px;
 }
 .about-me-section h1{

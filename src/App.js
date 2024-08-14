@@ -140,13 +140,19 @@ function App() {
       {/* about me section */}
       <section className='about-me-section'>
         <h1>ABOUT ME</h1>
-        <span>
-          I began in the world of software engineering when I was in middle school. I was fascinated by computers and their 
-          seemingly impossible complexity. Software engineering perfectly aligned with my love for problem solving and
-          creating things. I graduated high school with a computer science and computer programming certificate. then after
-          a year of just taking a break and working some basic jobs I went to the University of Utah and graduated their 
-          software engineering bootcamp.
-        </span>
+        <div>
+          <span>
+            I began in the world of software engineering when I was in middle school. I was fascinated by computers and their 
+            seemingly impossible complexity. Software engineering perfectly aligned with my love for problem solving and
+            creating things. I graduated high school with a computer science and computer programming certificate. then after
+            a year of just taking a break and working some basic jobs I went to the University of Utah and graduated their 
+            software engineering bootcamp.
+          </span>
+          <span>
+            My greatest strength is my ability to learn new things quickly and efficiently.
+            I am eager to get into the professional world of software engineering and collaborate with an awesome team of people(robots included).
+          </span>
+        </div>
       </section>
 
       {/* contact-me-section */}
