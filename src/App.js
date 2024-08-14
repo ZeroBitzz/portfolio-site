@@ -7,6 +7,7 @@ import linkedin from './contact icons/linkedin.png'
 import github from './contact icons/GitHub-Mark-ea2971cee799.png'
 import email from './contact icons/free-email-2026367-1713640.webp'
 import scroller from './scroll icon.png'
+import JSicon from './techstack icons/js.png'
 
 
 // lazy way to re run the function when the element has not rendered yet
@@ -140,7 +141,7 @@ function App() {
       {/* about me section */}
       <section className='about-me-section'>
         <h1>ABOUT ME</h1>
-        <div>
+        <div className='about-me-desc'>
           <span>
             I began in the world of software engineering when I was in middle school. I was fascinated by computers and their 
             seemingly impossible complexity. Software engineering perfectly aligned with my love for problem solving and
@@ -152,6 +153,18 @@ function App() {
             My greatest strength is my ability to learn new things quickly and efficiently.
             I am eager to get into the professional world of software engineering and collaborate with an awesome team of people(robots included).
           </span>
+          <span>
+            I am proficient with these technologies:
+          </span>
+          <div className='technology-stack'>
+            <img src={JSicon}/>
+            <img src={JSicon}/>
+            <img src={JSicon}/>
+            <img src={JSicon}/>
+            <img src={JSicon}/>
+            <img src={JSicon}/>
+            <img src={JSicon}/>
+          </div>
         </div>
       </section>
 
