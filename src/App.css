@@ -176,8 +176,15 @@ body {
   width: 500px;
 }
 
+.technology-stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .technology-stack img{
   width: 40px;
+  height: 40px;
 }
 
 /* contact me section */

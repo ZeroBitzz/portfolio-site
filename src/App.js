@@ -7,7 +7,20 @@ import linkedin from './contact icons/linkedin.png'
 import github from './contact icons/GitHub-Mark-ea2971cee799.png'
 import email from './contact icons/free-email-2026367-1713640.webp'
 import scroller from './scroll icon.png'
+
+//icons 
 import JSicon from './techstack icons/js.png'
+import CSSicon from './techstack icons/css.png'
+import HTMLicon from './techstack icons/html.png'
+import FIGMAicon from './techstack icons/figma.png'
+import GITicon from './techstack icons/git.png'
+import NODEJSicon from './techstack icons/node.png'
+import PYTHONicon from './techstack icons/python.webp'
+import REACTicon from './techstack icons/react.webp'
+import VSCODEicon from './techstack icons/vscode.png'
+import MYSQLicon from './techstack icons/mysql.png'
+import MONGODBicon from './techstack icons/mongodb.svg'
+import ARDUINOicon from './techstack icons/arduino.webp'
 
 
 // lazy way to re run the function when the element has not rendered yet
@@ -158,12 +171,17 @@ function App() {
           </span>
           <div className='technology-stack'>
             <img src={JSicon}/>
-            <img src={JSicon}/>
-            <img src={JSicon}/>
-            <img src={JSicon}/>
-            <img src={JSicon}/>
-            <img src={JSicon}/>
-            <img src={JSicon}/>
+            <img src={CSSicon}/>
+            <img src={HTMLicon}/>
+            <img src={REACTicon}/>
+            <img src={MONGODBicon}/>
+            <img src={NODEJSicon}/>
+            <img src={VSCODEicon}/>
+            <img src={GITicon}/>
+            <img src={PYTHONicon}/>
+            <img src={FIGMAicon}/>
+            <img src={MYSQLicon}/>
+            <img src={ARDUINOicon}/>
           </div>
         </div>
       </section>
