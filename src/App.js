@@ -178,35 +178,35 @@ function App() {
             {/* first section of techstack */}
             <div className='techstack1'>
               <div className='technology-name-icon-group'>
-                <img src={JSicon}/>
+                <img src={JSicon} alt='javascript icon'/>
                 <span>Javascript</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={CSSicon}/>
+                <img src={CSSicon} alt='CSS icon'/>
                 <span>CSS</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={HTMLicon}/>
+                <img src={HTMLicon} alt='HTML icon'/>
                 <span>HTML</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={REACTicon}/>
+                <img src={REACTicon} alt='React Native icon'/>
                 <span>React Native</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={MONGODBicon}/>
+                <img src={MONGODBicon} alt='Mongodb icon'/>
                 <span>Mongodb</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={NODEJSicon}/>
+                <img src={NODEJSicon} alt='node js icon'/>
                 <span>Node JS</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={Cicon}/>
+                <img src={Cicon} alt='C icon'/>
                 <span>C</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={PHPicon}/>
+                <img src={PHPicon} alt='php icon'/>
                 <span>PHP</span>
               </div>
             </div>
@@ -214,35 +214,35 @@ function App() {
             {/* second section techstack */}
             <div className='techstack2'>
               <div className='technology-name-icon-group'>
-                <img src={VSCODEicon}/>
+                <img src={VSCODEicon} alt='vs code icon'/>
                 <span>VS code</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={GITicon}/>
+                <img src={GITicon} alt='git icon'/>
                 <span>GIT</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={PYTHONicon}/>
+                <img src={PYTHONicon} alt='python icon'/>
                 <span>Python</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={FIGMAicon}/>
+                <img src={FIGMAicon} alt='figma icon'/>
                 <span>Figma</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={JAVAicon}/>
+                <img src={JAVAicon} alt='java icon'/>
                 <span>JAVA</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={MYSQLicon}/>
+                <img src={MYSQLicon} alt='mysql icon'/>
                 <span>MYSQL</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={ARDUINOicon}/>
+                <img src={ARDUINOicon} alt='arduino icon'/>
                 <span>Arduino</span>
               </div>
               <div className='technology-name-icon-group'>
-                <img src={EXPRESSJSicon}/>
+                <img src={EXPRESSJSicon} alt='express js icon'/>
                 <span>Express JS</span>
               </div>
             </div>
