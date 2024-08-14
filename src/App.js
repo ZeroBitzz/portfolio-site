@@ -82,7 +82,6 @@ function typeWriter() {
 function App() {
   return (
     <div className='App'>
-      <span className='metaspan'>created in august 2024</span>
       {/* introduction section */}
       <section className='introduction-section'>
         <div className='main-intro'>

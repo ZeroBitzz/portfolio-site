@@ -43,7 +43,6 @@ body {
   
   
   
-  width: 800px;
 }
 .main-intro h1{
   display: flex;
@@ -57,14 +56,6 @@ body {
 
 .changing-text {
   height: 300px;
-}
-
-.metaspan {
-  position: fixed;
-  right: 0;
-  rotate: 90deg;
-  margin-top: 50px;
-  width: 100px;
 }
 
 .scroller-container {
@@ -280,7 +271,6 @@ body {
   .main-intro {
     flex-direction: column;
     align-items: center;
-    width: 400px;
     margin-bottom: 0px;
     height: 300px;
   }
