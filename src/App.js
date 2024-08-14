@@ -21,6 +21,10 @@ import VSCODEicon from './techstack icons/vscode.png'
 import MYSQLicon from './techstack icons/mysql.png'
 import MONGODBicon from './techstack icons/mongodb.svg'
 import ARDUINOicon from './techstack icons/arduino.webp'
+import PHPicon from './techstack icons/php.png'
+import EXPRESSJSicon from './techstack icons/express-js.png'
+import Cicon from './techstack icons/Clanguage.png'
+import JAVAicon from './techstack icons/java.png'
 
 
 // lazy way to re run the function when the element has not rendered yet
@@ -170,6 +174,8 @@ function App() {
             I am proficient with these technologies:
           </span>
           <div className='technology-stack'>
+
+            {/* first section of techstack */}
             <div className='techstack1'>
               <div className='technology-name-icon-group'>
                 <img src={JSicon}/>
@@ -195,7 +201,17 @@ function App() {
                 <img src={NODEJSicon}/>
                 <span>Node JS</span>
               </div>
+              <div className='technology-name-icon-group'>
+                <img src={Cicon}/>
+                <span>C</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={PHPicon}/>
+                <span>PHP</span>
+              </div>
             </div>
+
+            {/* second section techstack */}
             <div className='techstack2'>
               <div className='technology-name-icon-group'>
                 <img src={VSCODEicon}/>
@@ -214,12 +230,20 @@ function App() {
                 <span>Figma</span>
               </div>
               <div className='technology-name-icon-group'>
+                <img src={JAVAicon}/>
+                <span>JAVA</span>
+              </div>
+              <div className='technology-name-icon-group'>
                 <img src={MYSQLicon}/>
                 <span>MYSQL</span>
               </div>
               <div className='technology-name-icon-group'>
                 <img src={ARDUINOicon}/>
                 <span>Arduino</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={EXPRESSJSicon}/>
+                <span>Express JS</span>
               </div>
             </div>
           </div>
