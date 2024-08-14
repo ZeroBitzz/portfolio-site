@@ -205,6 +205,9 @@ body {
   font-size: 15px;
   margin-top: -1px;
 }
+.technology-name-icon-group:hover {
+  cursor: default;
+}
 
 .technology-stack img{
   width: 40px;
