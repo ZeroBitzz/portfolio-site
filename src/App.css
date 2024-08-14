@@ -13,6 +13,36 @@ body {
 .main-intro {
   display: flex;
   flex-direction: row;
+/* space created by Daisy the frenchy */
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   width: 800px;
 }
 .main-intro h1{
@@ -23,6 +53,10 @@ body {
   font-size: 40px;
   color: gray;
   font-style: italic;
+}
+
+.changing-text {
+  height: 300px;
 }
 
 .metaspan {
@@ -238,4 +272,41 @@ body {
 .contact-icon:hover {
   background-color: red;
   border-radius: 10px;
+}
+
+
+/* breakpoints */
+@media only screen and (max-width: 860px) {
+  .main-intro {
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 0px;
+    height: 300px;
+  }
+  .main-intro span {
+    font-size: 20px;
+  }
+  .main-intro h1 {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-size: 40px;
+  }
+
+  .scroller-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .changing-text {
+    display: flex;
+    align-items: center;
+  }
+
+  .pfp {
+    width: 200px;
+  }
 }

@@ -8,7 +8,7 @@ import github from './contact icons/GitHub-Mark-ea2971cee799.png'
 import email from './contact icons/free-email-2026367-1713640.webp'
 import scroller from './scroll icon.png'
 
-//icons 
+//icon imports
 import JSicon from './techstack icons/js.webp'
 import CSSicon from './techstack icons/css.png'
 import HTMLicon from './techstack icons/html.webp'
@@ -86,7 +86,7 @@ function App() {
       {/* introduction section */}
       <section className='introduction-section'>
         <div className='main-intro'>
-          <h1>Hey! I'm Broderick!<span id='typewriter'></span></h1>
+          <h1 className='changing-text'>Hey! I'm Broderick!<span id='typewriter'></span></h1>
           <img src={pfp} className='pfp' alt='pfp' id='pfp'/>
           <span id='demo'></span>
         </div>
@@ -160,15 +160,17 @@ function App() {
         <h1>ABOUT ME</h1>
         <div className='about-me-desc'>
           <span>
-            I began in the world of software engineering when I was in middle school. I was fascinated by computers and their 
-            seemingly impossible complexity. Software engineering perfectly aligned with my love for problem solving and
-            creating things. I graduated high school with a computer science and computer programming certificate. Then after
-            a year of taking a break and working some basic jobs I went to the University of Utah and graduated their 
-            software engineering bootcamp.
+          I embarked on my software engineering journey in middle school, captivated by the 
+          seemingly impossible complexity of computers. My fascination with their intricacy
+           and my passion for problem-solving naturally led me to software engineering.
+            I earned a computer science and programming certificate during high school and, 
+            after a brief period working in various roles, I completed a software engineering 
+            bootcamp at the University of Utah.
           </span>
           <span>
-            My greatest strength is my ability to learn new things quickly and efficiently.
-            I am eager to get into the professional world of software engineering and collaborate with an awesome team of people(robots included).
+           My greatest strength is my ability to rapidly learn and adapt to new technologies. 
+           I am excited to contribute to a dynamic team and tackle challenging projects, collaborating
+           with amazing people and being on the forefront of cutting-edge technologies.
           </span>
           <span>
             I am proficient with these technologies:
