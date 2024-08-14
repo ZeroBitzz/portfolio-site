@@ -196,6 +196,15 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+.technology-name-icon-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.technology-name-icon-group span{
+  font-size: 15px;
+  margin-top: -1px;
+}
 
 .technology-stack img{
   width: 40px;

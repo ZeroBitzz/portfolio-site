@@ -9,9 +9,9 @@ import email from './contact icons/free-email-2026367-1713640.webp'
 import scroller from './scroll icon.png'
 
 //icons 
-import JSicon from './techstack icons/js.png'
+import JSicon from './techstack icons/js.webp'
 import CSSicon from './techstack icons/css.png'
-import HTMLicon from './techstack icons/html.png'
+import HTMLicon from './techstack icons/html.webp'
 import FIGMAicon from './techstack icons/figma.png'
 import GITicon from './techstack icons/git.png'
 import NODEJSicon from './techstack icons/node.png'
@@ -158,8 +158,8 @@ function App() {
           <span>
             I began in the world of software engineering when I was in middle school. I was fascinated by computers and their 
             seemingly impossible complexity. Software engineering perfectly aligned with my love for problem solving and
-            creating things. I graduated high school with a computer science and computer programming certificate. then after
-            a year of just taking a break and working some basic jobs I went to the University of Utah and graduated their 
+            creating things. I graduated high school with a computer science and computer programming certificate. Then after
+            a year of taking a break and working some basic jobs I went to the University of Utah and graduated their 
             software engineering bootcamp.
           </span>
           <span>
@@ -171,20 +171,56 @@ function App() {
           </span>
           <div className='technology-stack'>
             <div className='techstack1'>
-              <img src={JSicon}/>
-              <img src={CSSicon}/>
-              <img src={HTMLicon}/>
-              <img src={REACTicon}/>
-              <img src={MONGODBicon}/>
-              <img src={NODEJSicon}/>
+              <div className='technology-name-icon-group'>
+                <img src={JSicon}/>
+                <span>Javascript</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={CSSicon}/>
+                <span>CSS</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={HTMLicon}/>
+                <span>HTML</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={REACTicon}/>
+                <span>React Native</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={MONGODBicon}/>
+                <span>Mongodb</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={NODEJSicon}/>
+                <span>Node JS</span>
+              </div>
             </div>
             <div className='techstack2'>
-              <img src={VSCODEicon}/>
-              <img src={GITicon}/>
-              <img src={PYTHONicon}/>
-              <img src={FIGMAicon}/>
-              <img src={MYSQLicon}/>
-              <img src={ARDUINOicon}/>
+              <div className='technology-name-icon-group'>
+                <img src={VSCODEicon}/>
+                <span>VS code</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={GITicon}/>
+                <span>GIT</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={PYTHONicon}/>
+                <span>Python</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={FIGMAicon}/>
+                <span>Figma</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={MYSQLicon}/>
+                <span>MYSQL</span>
+              </div>
+              <div className='technology-name-icon-group'>
+                <img src={ARDUINOicon}/>
+                <span>Arduino</span>
+              </div>
             </div>
           </div>
         </div>
