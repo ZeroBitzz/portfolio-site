@@ -111,7 +111,7 @@ function App() {
                 <div>CSS</div>
               </div>
               <div className='link-buttons'>
-                <a href='https://github.com/ZeroBitzz/weather-finder' target='blank'>GITHUB</a>
+                <a href='https://github.com/ZeroBitzz/weather-finder' target='blank' className='first-link'>GITHUB</a>
                 <a href='https://serene-narwhal-b92afd.netlify.app/' target='blank'>DEMO</a>
               </div>
             </div>
@@ -128,7 +128,7 @@ function App() {
                 <div>CSS</div>
               </div>
               <div className='link-buttons'>
-                <a href='https://github.com/ZeroBitzz/password-generator' target='blank'>GITHUB</a>
+                <a href='https://github.com/ZeroBitzz/password-generator' target='blank' className='first-link'>GITHUB</a>
                 <a href='https://unique-froyo-495763.netlify.app/' target='blank'>DEMO</a>
               </div>
             </div>
@@ -146,7 +146,7 @@ function App() {
                 <div>CSS</div>
               </div>
               <div className='link-buttons'>
-                <a href='https://github.com/ZeroBitzz/rgb-guesser' target='blank'>GITHUB</a>
+                <a href='https://github.com/ZeroBitzz/rgb-guesser' target='blank' className='first-link'>GITHUB</a>
                 <a href='https://github.com/ZeroBitzz/rgb-guesser' target='blank'>DEMO</a>
               </div>
             </div>

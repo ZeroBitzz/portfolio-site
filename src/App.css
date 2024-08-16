@@ -56,6 +56,7 @@ body {
 
 .changing-text {
   height: 300px;
+  margin-right: 20px;
 }
 
 .scroller-container {
@@ -108,15 +109,18 @@ body {
 .projects-container {
   display: flex;
   flex-direction: column;
-  background-color: #c9c9c9;
   padding: 20px;
   border-radius: 20px;
   width: 60%;
 }
 
 .project-div {
+  background-color: #c9c9c9;
+  border-radius: 20px;
   margin-bottom: 100px;
+  padding: 5%;
   display: flex;
+  flex-direction: row;
 }
 
 .project-desc {
@@ -129,6 +133,7 @@ body {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   font-size: 20px;
   font-weight: bold;
@@ -267,7 +272,7 @@ body {
 
 
 /* breakpoints */
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1220px) {
   .main-intro {
     flex-direction: column;
     align-items: center;
@@ -294,6 +299,23 @@ body {
   .changing-text {
     display: flex;
     align-items: center;
+  }
+
+  .project-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-div img {
+    width: 80%;
+  }
+
+  .project-desc span {
+    width: 100%;
+    font-size: 30px;
+  }
+  .project-desc h2 {
+    font-size: 40px;
   }
 
   .pfp {
