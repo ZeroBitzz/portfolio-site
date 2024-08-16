@@ -1,11 +1,5 @@
 # My Website
-Enjoy my website
-
-# screenshot
-n/a
+My personal website, enjoy
 
 # live link
-n/a
-
-# credits
-https://salesp07.github.io/
+[my-website](https://app.netlify.com/sites/broderick-howell/overview)
