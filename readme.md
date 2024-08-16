@@ -2,4 +2,4 @@
 My personal website, enjoy
 
 # live link
-[my-website](https://app.netlify.com/sites/broderick-howell/overview)
+[my-website!](https://broderick-howell.netlify.app/)
