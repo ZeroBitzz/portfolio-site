@@ -147,7 +147,7 @@ function App() {
               </div>
               <div className='link-buttons'>
                 <a href='https://github.com/ZeroBitzz/rgb-guesser' target='blank' className='first-link'>GITHUB</a>
-                <a href='https://github.com/ZeroBitzz/rgb-guesser' target='blank'>DEMO</a>
+                <a href='https://gentle-kheer-60f8f5.netlify.app/' target='blank'>DEMO</a>
               </div>
             </div>
           </div>
