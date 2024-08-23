@@ -96,7 +96,7 @@ function App() {
 
       {/* projects section */}
       <section className='projects-section'>
-        <h1 className='section-title'>MY PROJECTS</h1>
+        <h1 className='section-title'>MY FAVORITE PROJECTS</h1>
         <div className='projects-container'>
           
           <div className='project-div'>
