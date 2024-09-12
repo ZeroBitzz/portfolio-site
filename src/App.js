@@ -255,7 +255,7 @@ function App() {
       <section className='contact-me-section'>
         <h1>CONTACT ME</h1>
         <div>
-          <a href='https://www.linkedin.com/in/broderick-howell-43b0161a4/' target='blank'>
+          <a href='https://www.linkedin.com/in/broderick-hywell-43b0161a4/' target='blank'>
             <img src={linkedin} className='contact-icon' alt='linkedin icon'/>
           </a>    
 
